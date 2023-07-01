@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	user-select: none;
+}
+body{
+	background-color: #dedede;
+}
+#table{
+	display: grid;
+	grid-template-columns: auto auto auto .5em auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+#table > .withspan{
+	display: flex;
+	flex-direction: column;
+	border: 2px #131320 solid;
+	background-color: #13132055;
+	color: #000000;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	padding: 0.25em;
+	border-radius: .25em;
+	margin: .25em;
+	cursor: pointer;
+	backdrop-filter: blur(5px);
+	box-shadow: 3px 3px 5px #13132055,
+	-3px -3px 5px #ffffffff;
+}
+#table > .withspan > span{
+	font-size: xx-small;
+}
+#table > .space{
+	padding: 1em;
+	margin: .05em;
+}
+
+#table > .nonmetal{
+	border: 2px #2A4165 solid;
+	background-color: #2A416525;
+	box-shadow: 3px 3px 5px #2A4165de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .noble-gas{
+	border: 2px #623842 solid;
+	background-color: #62384225;
+	box-shadow: 3px 3px 5px #623842de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .alkali-metal{
+	border: 2px #254C57 solid;
+	background-color: #254C5725;
+	box-shadow: 3px 3px 5px #254C57de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .alkaline-earth-metal{
+	border: 2px #A8B8DD solid;
+	background-color: #A8B8DD25;
+	box-shadow: 3px 3px 5px #A8B8DDde,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .metalloid{
+	border: 2px #523E1B solid;
+	background-color: #523E1B25;
+	box-shadow: 3px 3px 5px #523E1Bde,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .halogen{
+	border: 2px #2A4165 solid;
+	background-color: #2A416525;
+	box-shadow: 3px 3px 5px #2A4165de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .metal{
+	border: 2px #2F4D47 solid;
+	background-color: #2F4D4725;
+	box-shadow: 3px 3px 5px #2F4D47de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .transition-metal{
+	border: 2px #423C64 solid;
+	background-color: #423C6425;
+	box-shadow: 3px 3px 5px #423C64de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .post-transition-metal{
+	border: 2px #47464C solid;
+	background-color: #47464C25;
+	box-shadow: 3px 3px 5px #47464Cde,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .actinoid{
+	border: 2px #613A29 solid;
+	background-color: #613a2925;
+	box-shadow: 3px 3px 5px #613A29de,
+	-3px -3px 5px #ffffffff;
+}
+
+#table > .lanthanoid{
+	border: 2px #014A76 solid;
+	background-color: #014A7625;
+	box-shadow: 3px 3px 5px #014A76de,
+	-3px -3px 5px #ffffffff;
+}
+
+@media only screen and (max-width: 1000px){
+	#table{
+		display: grid;
+		grid-template-columns: auto auto auto .25em auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	}		
+}
